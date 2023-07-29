@@ -1,0 +1,42 @@
+body{
+    background-color: #24353f;
+
+}
+
+main{
+    width: 60%;
+    margin:80px auto;
+    background-color: #24353f;
+    text-align: center;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.title{
+    color:#17a2b8;
+}
+
+.btnLogin:hover{
+ background-color: #17a2b8;
+ color: #fff !important;
+}
+
+.btnMail , .btnPassword , .btnName{
+    background-color: #24353f;
+    border: 1px solid #ced4da;
+    color: #ced4da;
+}
+
+.btnMail:focus , .btnPassword:focus{
+   border:1px solid #0d6efd;
+    box-shadow: none;
+}
+
+main a{
+    text-decoration: none;
+    color: #fff;
+    transition: all .5s;
+}
+
+main a:hover{
+    text-decoration:underline;
+}

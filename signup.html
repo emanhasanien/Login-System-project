@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/signup.css">
+
+</head>
+<body>
+    
+    <main>
+        <section class="p-4">
+            <h1 class="title mb-3">Smart Login System</h1>
+
+            <input id="userName" type="text" class="btnName w-100 p-1 rounded-2 mb-3 " placeholder="Enter your name">
+            <p id="messageNameInvaild" class="alert alert-danger d-none ">Enter first letter capital then from 2 to 8 small characters  </p>
+            <input id="userMail" type="email" class="btnMail w-100 p-1 rounded-2 mb-3 " placeholder="Enter your email">
+            <p id="messageEmailInvaild" class="alert alert-danger d-none ">email must be as example@xxxx.com</p>
+
+            <input id="userPassword" type="password" class="btnPassword w-100 p-1 rounded-2 mb-3" placeholder="Enter your password">
+            <p id="messageSuccess" class="text-success text-center d-none">Success</p>
+            <p id="incorrectMessage" class="text-danger text-center d-none">All inputs are required</p>
+            <p id="emailNotExist" class="text-danger text-center d-none">email is already exist</p>
+            <button id="btnSignup" class="btn btn-outline-info my-3 w-100  btnLogin">Sign Up</button>
+            <p class="text-white">Don't have an account? <a id="signinAnchore" href="#">Signin</a></p>
+        </section>
+    </main>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/signup.js"></script>
+</body>
+</html>
